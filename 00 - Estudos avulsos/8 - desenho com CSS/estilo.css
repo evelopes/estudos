@@ -1,0 +1,186 @@
+.corpo-mario{
+  display: flex;
+  flex-wrap: wrap;
+  width:800px;
+}
+
+div{
+  width:40px;
+  height: 40px;
+}
+
+div:nth-child(n+7):nth-child(-n+12){
+  background-color: red ;
+}
+
+div:nth-child(n+26):nth-child(-n+35){
+  background-color: red ;
+}
+div:nth-child(n+46):nth-child(-n+48){
+  background-color: brown ;
+}
+
+div:nth-child(n+49):nth-child(-n+51){
+  background-color: NavajoWhite ;
+}
+div:nth-child(52){
+  background-color: black;
+}
+div:nth-child(53){
+  background-color: NavajoWhite ;
+}
+
+div:nth-child(65){
+  background-color: brown ;
+}
+div:nth-child(66){
+  background-color: navajowhite ;
+}
+div:nth-child(67){
+  background-color: brown ;
+}
+div:nth-child(n+68):nth-child(-n+71){
+  background-color: NavajoWhite ;
+}
+div:nth-child(72){
+  background-color: black;
+}
+div:nth-child(n+73):nth-child(-n+75){
+  background-color: NavajoWhite ;
+}
+div:nth-child(85){
+  background-color: brown ;
+}
+div:nth-child(86){
+  background-color: navajowhite ;
+}
+div:nth-child(n+87):nth-child(-n+88){
+  background-color: brown ;
+}
+div:nth-child(n+89):nth-child(-n+92){
+  background-color: navajowhite ;
+}
+div:nth-child(93){
+  background-color: black;
+}
+div:nth-child(n+94):nth-child(-n+96){
+  background-color: navajowhite ;
+}
+div:nth-child(n+105):nth-child(-n+106){
+  background-color: brown ;
+}
+div:nth-child(n+107):nth-child(-n+111){
+  background-color: navajowhite ;
+}
+div:nth-child(n+112):nth-child(-n+115){
+  background-color: black ;
+}
+div:nth-child(n+127):nth-child(-n+134){
+  background-color: navajowhite ;
+}
+div:nth-child(n+145):nth-child(-n+146){
+  background-color: red ;
+}
+
+div:nth-child(147){
+  background-color: blue ;
+}
+
+div:nth-child(n+148):nth-child(-n+151){
+  background-color: red ;
+}
+
+div:nth-child(n+164):nth-child(-n+166){
+  background-color: red ;
+}
+div:nth-child(167){
+  background-color: blue ;
+}
+div:nth-child(n+168):nth-child(-n+169){
+  background-color: red ;
+}
+div:nth-child(170){
+  background-color: blue ;
+}
+div:nth-child(n+171):nth-child(-n+173){
+  background-color: red ;
+}
+div:nth-child(n+183):nth-child(-n+186){
+  background-color: red ;
+}
+
+div:nth-child(n+187):nth-child(-n+190){
+  background-color: blue ;
+}
+
+div:nth-child(n+191):nth-child(-n+194){
+  background-color: red ;
+}
+div:nth-child(n+203):nth-child(-n+204){
+  background-color: navajowhite ;
+}
+div:nth-child(205){
+  background-color: red ;
+}
+div:nth-child(206){
+  background-color: blue ;
+}
+
+div:nth-child(207){
+  background-color: yellow;
+}
+div:nth-child(n+208):nth-child(-n+209){
+  background-color: blue ;
+}
+div:nth-child(210){
+  background-color: yellow;
+}
+
+div:nth-child(211){
+  background-color: blue;
+}
+
+div:nth-child(212){
+  background-color: red;
+}
+div:nth-child(n+213):nth-child(-n+214){
+  background-color:navajowhite;
+}
+div:nth-child(n+223):nth-child(-n+225){
+  background-color: navajowhite ;
+}
+div:nth-child(n+226):nth-child(-n+231){
+  background-color: blue ;
+}
+div:nth-child(n+232):nth-child(-n+234){
+  background-color: navajowhite;
+}
+
+div:nth-child(n+243):nth-child(-n+244){
+  background-color: navajowhite ;
+}
+div:nth-child(n+245):nth-child(-n+252){
+  background-color: blue ;
+}
+div:nth-child(n+253):nth-child(-n+254){
+  background-color: navajowhite;
+}
+
+div:nth-child(n+265):nth-child(-n+267){
+  background-color: blue ;
+}
+div:nth-child(n+270):nth-child(-n+272){
+  background-color: blue ;
+}
+div:nth-child(n+284):nth-child(-n+286){
+  background-color: brown ;
+}
+div:nth-child(n+291):nth-child(-n+293){
+  background-color: brown ;
+}
+div:nth-child(n+303):nth-child(-n+306){
+  background-color: brown ;
+}
+div:nth-child(n+311):nth-child(-n+314){
+  background-color: brown ;
+}
