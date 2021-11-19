@@ -1,3 +1,14 @@
+body{  
+  margin:0 auto;
+  width: 1200px;
+}
+
+header{
+  display: flex;
+  flex-wrap: wrap;
+  width:800px;
+}
+
 .corpo-mario{
   display: flex;
   flex-wrap: wrap;
@@ -183,4 +194,15 @@ div:nth-child(n+303):nth-child(-n+306){
 }
 div:nth-child(n+311):nth-child(-n+314){
   background-color: brown ;
+}
+
+.icon{
+  width:20px;
+  height: 20px;
+}
+
+footer{
+  display: flex;
+  width: 800px;
+  margin:0 auto;
 }
