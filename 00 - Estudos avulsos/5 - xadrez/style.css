@@ -1,31 +1,39 @@
-body {
-  background: salmon;
-  width: 100%;
-}
-
-
+body{ 
+  margin:0 auto; 
+  width: 1200px; 
+  color: white;
+  background: purple;
+} 
+  
+ 
 .xadrez{
   display:grid;
+  margin:0 auto; 
   width: 900px;
   height: 900px;
   border: solid 20px black;
-  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 0px ;
+  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 0px;
   grid-template-rows:  12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
 }
 
 div:nth-child(2n+1) {
   background-color: rgb(255, 255, 255);
 }
+
 div:nth-child(2n) {
   background-color: rgb(0, 0, 0);
- 
-}
+ }
 
 h1 {
   font-size: 4rem;
   text-align: center;
-  padding: 0;
+  padding: 0px;
   margin: 0;
+}
+
+h2 {
+  padding: 10px;
+  text-align: center;
 }
 
 .brancas{
@@ -36,5 +44,17 @@ h1 {
 .pretas{
   color: black;
   text-shadow:  1px 1px 5px rgb(153, 130, 255);
+}
+
+.icon{
+  width: 20px;
+  height: 20px;
+}
+
+footer{ 
+  width: 100%; 
+  margin:0 auto; 
+  color: white;
+  text-align: center;
 }
 
