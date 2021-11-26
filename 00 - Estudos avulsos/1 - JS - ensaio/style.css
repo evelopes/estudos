@@ -7,4 +7,9 @@ main{
 }
 #quarto{
   max-width: 100%;
+  padding-top: 10px;
+}
+
+button{
+  margin-right: 10px;
 }
