@@ -1,19 +1,33 @@
 body{ 
   margin:0 auto; 
-  width: 1200px; 
-  color: white;
-  background: purple;
+  width: 1300px; 
 } 
   
+.tela{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 640px;
+  border: none;
+  background-color: white;
+}
  
 .xadrez{
   display:grid;
   margin:0 auto; 
-  width: 900px;
-  height: 900px;
+  width: 600px;
+  height: 600px;
   border: solid 20px black;
-  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 0px;
+  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 2px;
   grid-template-rows:  12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+}
+
+.xadrez div{
+  font-size: 3rem;
+  text-align: center;
+  padding: 0px;
+  margin: 0;
+  text-shadow:  1px 1px 5px rgb(255, 108, 164);
+  background: rgb(129, 128, 128);
 }
 
 div:nth-child(2n+1) {
@@ -24,8 +38,12 @@ div:nth-child(2n) {
   background-color: rgb(0, 0, 0);
  }
 
+.movimentos{
+ color: #fff;
+ padding: 10px;
+}
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
   padding: 0px;
   margin: 0;
@@ -36,10 +54,17 @@ h2 {
   text-align: center;
 }
 
+.brancas-form{
+  color: white;
+  text-shadow:  1px 1px 5px rgb(255, 108, 164);
+  background: rgb(129, 128, 128);
+}
+
 .brancas{
   color: white;
   text-shadow:  1px 1px 5px rgb(255, 108, 164);
 }
+
 
 .pretas{
   color: black;
@@ -54,7 +79,7 @@ h2 {
 footer{ 
   width: 100%; 
   margin:0 auto; 
-  color: white;
+  color: rgba(32, 23, 82, 0.904);
   text-align: center;
 }
 
