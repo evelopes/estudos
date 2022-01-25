@@ -86,18 +86,16 @@ P{
 .botaoinscreva{
   background: #fff;
   color: green;
-  margin: auto;
-  padding: 5px;
-  border-radius: 10px;
+  border-radius: 10px 0px;
   text-align: center;
   height: 30px;
-  width: 70%;
-  box-shadow: 3px 3px 3px green;
+  box-shadow: 3px 3px 3px rgb(18, 20, 18);
 }
 
 .botaoinscreva a{
   color: green;
   text-decoration: none;
+  width: 250px;
 }
 
 
@@ -108,7 +106,8 @@ P{
 .conteudo{
   padding: 10%;
   grid-template-columns: auto ;
-  grid-template-rows: 42% 29% 29%;
+  grid-template-rows: 30% 35% 35%;
+  text-align: center;
 }
 
 .cta{
@@ -132,6 +131,6 @@ P{
 }
 
 .botaoinscreva{
-    height: 40px;
+  height: 40px;
   width: 70%;
 }

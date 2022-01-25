@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Texto do lado da imagem</title>
+<style>
+  body{
+    margin: auto; /*centralizando o conteudo*/
+    width: 820px; /*20px + que os div's por conta do border inserido no div*/
+  }
+
+  /*códigos do primeiro box e texto*/
+  .divAjuste{
+    max-width: 800px;
+    display: inline-block;
+    background-color:cornsilk;
+    border-right: 20px solid bisque; /*barra lateral que fez um acabamento pro texto não ir até o fim*/
+}
+ .ajuste{
+    max-width: 400px;
+    float: left; /* permitiu o alinhamento do texto a direita da imagem, já que foi alinhada a esquerda*/ 
+    margin: 0 20px 0 0; /*gerou o espaçamento entre a imagem e o texto*/
+  }
+
+  .conteudoTexto{
+    margin-top: 10%; /*alinhou o texto na vertical, % informada */
+  }
+
+  
+
+  /*códigos do segundo box e texto*/
+  .segundoDiv{
+    max-width: 800px;
+    display: flex; /*permitiu o alinhamento*/
+    background-color: bisque;
+    border-right: 20px solid cornsilk; /*barra lateral que fez um acabamento pro texto não ir até o fim*/
+    align-items: center; /*Flex permitiu centralizar o texto ao centro vertical*/
+  }
+
+  .segundaImagem{
+    max-width: 400px;
+    margin: 0 20px 0 0;     
+  }
+
+  .blocoTexto{ /*por conta do display flex, foi necessário inserir outro div*/
+    text-align: left;
+  }
+
+  
+</style>
+</head>
+<body>
+  <div class="divAjuste">
+  <img src="https://images.pexels.com/photos/3811082/pexels-photo-3811082.jpeg" class="ajuste"  alt=""> <div class="conteudoTexto"><h1>Lorem ipsum dolor sit</h1><p>Aamet consectetur adipisicing elit. Quos, explicabo aliquid mollitia harum facilis neque, illum vel porro odio deleniti nisi quia. Rerum quisquam impedit tempore consectetur. Debitis, quia perferendis?</p></div></div>
+  <p>--------------------------------------------------------</p>
+
+  <div class="segundoDiv">
+    <img src="https://images.pexels.com/photos/3811082/pexels-photo-3811082.jpeg" class="segundaImagem" alt=""> <div class="blocoTexto"><h1>Lorem ipsum dolor sit</h1><p class="textoAlinhadoEsquerda">Amet consectetur adipisicing elit. Quos, explicabo aliquid mollitia harum facilis neque, illum vel porro odio deleniti nisi quia. Rerum quisquam impedit tempore consectetur. Debitis, quia perferendis?</p></div></div>
+
+</body>
+</html>

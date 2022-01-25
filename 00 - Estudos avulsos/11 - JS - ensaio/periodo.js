@@ -8,7 +8,11 @@ function noite(){
 
 var data = new Date();
 var dia = data.getDate();
+var mes = data.getMonth();
 var ano = data.getFullYear(); 
 
+var mescorreto = mes + 1;
+
 document.getElementById("mudar").innerText = dia ;
+document.getElementById("mes").innerText = mescorreto ;
 document.getElementById("mudarAno").innerText = ano ;

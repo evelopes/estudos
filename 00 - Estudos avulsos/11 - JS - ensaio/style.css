@@ -19,25 +19,23 @@ main{
   left:6%;
   background-color: rgb(186, 103, 255);
   width: 3vw;
-  padding: 0.5vw;
-  border-radius: 20%;
+  padding: 0.4vw;
+  border-radius: 50%;
+  height: 70px;
   text-align: center;
   color: white;
   -webkit-transform: skew(6deg);
-  box-shadow: rgb(45, 4, 78)  2px 2px 10px;
-
+  box-shadow: rgb(85, 70, 155)  -2px 5px 11px;
 
 }
 
-#mudar{
-  
+#mudar, #mudarAno{
   font-size: 1.5vw;
   font-weight: 400;
 }
-#mudarAno{
+#mescorreto{
   font-size: 1vw;
   font-weight: 800;
-
 }
 
 button{

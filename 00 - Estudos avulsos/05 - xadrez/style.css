@@ -1,6 +1,6 @@
 body{ 
-  margin:0 auto; 
-  width: 1300px; 
+  margin: auto; 
+  width: 640px; 
 } 
   
 .tela{
@@ -38,10 +38,6 @@ div:nth-child(2n) {
   background-color: rgb(0, 0, 0);
  }
 
-.movimentos{
- color: #fff;
- padding: 10px;
-}
 h1 {
   font-size: 3rem;
   text-align: center;
